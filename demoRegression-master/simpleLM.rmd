@@ -1,7 +1,7 @@
 ---
 title: "simpleRegress"
-author: "put your name here"
-date: "Fall 2020"
+author: Aylin Torres
+date: 11/12/24
 output: html_document
 ---
 
@@ -29,4 +29,7 @@ summary.lm(simp)
 
 
 ## Compare all models that predict LENGTH other than NECK. Then order them from worst to best by its value of Adjusted-Rsquared (bigger is better), or by RSE (residual standard error) where smaller is better. 
+
+If comparing all the models other than neck for lenght the worst model for determining Length is age with a adjusted R-squared number of 0.5073, the Headwth with a the number .5321, followed by the weight at 0.7423, CHEST at .7869, and lastly HEADLEN with an adjusted R-Squared number of 0.8434. This would mean than HEANLEN is the most reliable model for predicting LENGHT.
+
 
